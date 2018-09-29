@@ -1,3 +1,5 @@
+# 使用的是centos
+
 # 修改docker镜像仓库
 
 这里使用的是daoCloud的免费镜像仓库，
