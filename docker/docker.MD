@@ -10,6 +10,8 @@
 - 找到 /etc/yum.repos.d
 - cp docker-ce.repo docker-ce.repo.bak备份一下
 - 修改docker-ce.repo 内容，将一下内容替换或增加
+
+```
 [docker-ce-stable]
 name=Docker CE Stable - $basearch
 baseurl=https://mirrors.aliyun.com/docker-ce/linux/centos/7/$basearch/stable
@@ -64,5 +66,5 @@ baseurl=https://mirrors.aliyun.com/docker-ce/linux/centos/7/source/test
 enabled=0
 gpgcheck=1
 gpgkey=https://mirrors.aliyun.com/docker-ce/linux/centos/gpg
-
+```
 ok了
