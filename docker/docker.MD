@@ -6,6 +6,9 @@
 - 打开https://www.daocloud.io/mirror
 - 在页面下找到配置 Docker 加速器
 - 根据提示执行代码
+```
+curl -sSL https://get.daocloud.io/daotools/set_mirror.sh | sh -s http://f1361db2.m.daocloud.io
+```
 
 # 修改docker更新地址
 这里使用的docker为docker-ce版
