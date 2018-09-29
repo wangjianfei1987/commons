@@ -1,4 +1,4 @@
-# 使用的是centos
+# 使用的是centos7
 
 # 修改docker镜像仓库
 
