@@ -1,4 +1,5 @@
 # 可以按照官网的方式来安装[Node.js官网安装方式](https://nodejs.org/en/download/package-manager/#enterprise-linux-and-fedora)
+<a href="https://nodejs.org/en/download/package-manager/#enterprise-linux-and-fedora" target="_blank">Node.js官网安装方式</a>
 
 要有下载安装权限
 
