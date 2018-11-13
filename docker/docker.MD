@@ -1,7 +1,7 @@
 # 使用的是centos7
 
 ## 安装Dock-ce 
-参照[官方文档](https://docs.docker.com/install/linux/docker-ce/centos/] "centos环境安装文档")
+参照[官方文档](https://docs.docker.com/install/linux/docker-ce/centos/])
 
 ## 修改docker镜像仓库
 
