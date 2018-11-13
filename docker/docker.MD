@@ -1,6 +1,9 @@
 # 使用的是centos7
 
-# 修改docker镜像仓库
+## 安装Dock-ce 
+参照[官方文档](https://docs.docker.com/install/linux/docker-ce/centos/],'centos环境安装文档')
+
+## 修改docker镜像仓库
 
 这里使用的是daoCloud的免费镜像仓库，
 - 打开https://www.daocloud.io/mirror
@@ -10,7 +13,7 @@
 curl -sSL https://get.daocloud.io/daotools/set_mirror.sh | sh -s http://f1361db2.m.daocloud.io
 ```
 
-# 修改docker更新地址
+## 修改docker更新地址
 这里使用的docker为docker-ce版
 - 找到 /etc/yum.repos.d
 - cp docker-ce.repo docker-ce.repo.bak备份一下
