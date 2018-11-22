@@ -1,0 +1,9 @@
+# 如果协议是x-www-from-urlencoded，要求参数是数组类型，当数量为1时会默认为string
+```
+ 当数量大于1时
+ POST /xxx/xxx body: {"tags":["BGAGAC1802000002","BGAGAB1802000008","BGAAAC1801000002"]} 
+ 当数量为1时
+ POST /xxx/xxx body: {"tags":"BGAGAC1802000002"} 
+ 此时后端取到tags 判断 
+ typeof tags !== 'object' 为true
+```
