@@ -19,3 +19,6 @@
 - 或者 git branch addPromptForFirstLogin
        git checkout addPromptForFirstLogin
 
+# 合并分支
+> git cherry-pick xxxx
+
